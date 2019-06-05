@@ -19,14 +19,13 @@ public class AreaCirculo {
 		radio = entrada.nextInt();
 
 		//Implicit casting
-		float fradio = radio;
-
+		//float fradio = radio;
 
 		// Mostrar en pantalla el valor del diámetro, circunferencia y área
 
-		System.out.printf("El valor del diámetro es: %.3f\n", 2 * fradio);
-		System.out.printf("El valor de la circunferencia es: %.3f\n", 2 * Math.PI * fradio);
-		System.out.printf("El valor del área es: %.3f\n", Math.PI * (fradio * fradio)) ;
+		System.out.printf("El valor del diámetro es: %.3f\n", 2 * ((float) radio));
+		System.out.printf("El valor de la circunferencia es: %.3f\n", 2 * Math.PI * ((float) radio));
+		System.out.printf("El valor del área es: %.3f\n", Math.PI * ((float) radio * radio)) ;
 
 
 
