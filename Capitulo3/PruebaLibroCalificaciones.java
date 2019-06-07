@@ -1,4 +1,7 @@
 //Crea un objeto LibroCalificaciones y llama a su método mostrarMensaje
+// pasa un objeto String al método mostrarMensaje()
+
+import java.util.Scanner;
 
 public class PruebaLibroCalificaciones{
 
