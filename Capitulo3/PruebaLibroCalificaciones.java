@@ -19,10 +19,12 @@ public class PruebaLibroCalificaciones{
 		//Pide y recibe el nombre del curso como entrada
 		System.out.println("Escriba el nombre del curso:");
 		String nombreDelCurso = entrada.nextLine(); //Lee una línea de texto
+		System.out.println(); //Imprime una línea en blanco
 
 
 		// Llama al método mostrar mensaje de miLibroCalificaciones
-		miLibroCalificaciones.mostrarMensaje();
+		//y pasa nombreDelCurso como argumento
+		miLibroCalificaciones.mostrarMensaje(nombreDelCurso);
 	} // Fin de main
 
 } //Fin de la clase PruebaLibroCalificaciones
