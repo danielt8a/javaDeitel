@@ -5,7 +5,13 @@ import java.util.Scanner;
 
 public class PruebaLibroCalificaciones{
 
+	//El método main comienza la ejecución del programa
+
 	public static void main(String[] args){
+
+		// Crea el objeto Scanner para obtener datos del teclado del usuario
+
+		Scanner entrada = new Scanner(System.in);
 
 		//Crea un objeto LibroCalificaciones y lo asigna a miLibroCalificaciones
 		LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones();
