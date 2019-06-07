@@ -16,6 +16,11 @@ public class PruebaLibroCalificaciones{
 		//Crea un objeto LibroCalificaciones y lo asigna a miLibroCalificaciones
 		LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones();
 
+		//Pide y recibe el nombre del curso como entrada
+		System.out.println("Escriba el nombre del curso:");
+		String nombreDelCurso = entrada.nextLine(); //Lee una línea de texto
+
+
 		// Llama al método mostrar mensaje de miLibroCalificaciones
 		miLibroCalificaciones.mostrarMensaje();
 	} // Fin de main
