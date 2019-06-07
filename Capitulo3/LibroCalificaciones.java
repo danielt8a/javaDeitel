@@ -5,8 +5,8 @@ public class LibroCalificaciones{
 
 	// Muestra el mensaje de bienvenida  al usuario de LibroCalificaciones
 
-	public void mostrarMensaje()
+	public void mostrarMensaje(String nombreDelCurso)
 	{
-		System.out.println("Bienvenido al Libro de Calificaciones!");
+		System.out.printf("Bienvenido al Libro de Calificaciones para \n %s! \n", nombreDelCurso);
 	} // Fin del método mostrarMensaje
 }// Fin de la clase LibroCalificaciones
