@@ -11,7 +11,11 @@ public class LibroCalificaciones{
 		nombreDelCurso = nombre; // Almacena el nombre del curso en la variable nombre
 	} // Fin del método establecerNombreDelCurso
 
-	//
+	//Método para obtener el nombre del curso
+	public String obtenerNombreDelCurso(){
+
+		return nombreDelCurso;
+	} //Fin del método obtener nombre del curso
 
 	// Muestra el mensaje de bienvenida  al usuario de LibroCalificaciones
 
