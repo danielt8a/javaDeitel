@@ -21,8 +21,8 @@ public class LibroCalificaciones{
 
 	public void mostrarMensaje(String nombreDelCurso)
 	{
-		System.out.printf("Bienvenido al Libro de Calificaciones para \n %s! \n", nombreDelCurso);
-		obtenerNombreDelCurso();
+		System.out.printf("Bienvenido al Libro de Calificaciones para \n %s! \n", obtenerNombreDelCurso() );
+		
 		//Esta línea manda a llamar al método obtenerNombreDelCurso
 
 	} // Fin del método mostrarMensaje
