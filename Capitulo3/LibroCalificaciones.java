@@ -4,7 +4,7 @@
 public class LibroCalificaciones{
 
 	// Nombre del curso para este LibroCalificaciones
-	private String nombreDelCurso; 
+	private String nombreDelCurso; //Variable de instancia
 
 	//Método para establecer el nombre del curso
 	public void establecerNombreDelCurso(String nombre){
@@ -19,7 +19,7 @@ public class LibroCalificaciones{
 
 	// Muestra el mensaje de bienvenida  al usuario de LibroCalificaciones
 
-	public void mostrarMensaje(String nombreDelCurso)
+	public void mostrarMensaje()
 	{
 		System.out.printf("Bienvenido al Libro de Calificaciones para \n %s! \n", obtenerNombreDelCurso() );
 		
