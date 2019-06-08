@@ -32,7 +32,7 @@ public class LibroCalificaciones {
 
 	// Método para establecer el nombre del Instructor
 
-	public void establecerNombreDelInstructor(){
+	public void establecerNombreDelInstructor(String instructor){
 
 		nombreDelInstructor = instructor;
 	} // Fin del método establecerNombreDelInstructor
