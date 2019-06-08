@@ -16,15 +16,21 @@ public class PruebaLibroCalificaciones{
 		//Crea un objeto LibroCalificaciones y lo asigna a miLibroCalificaciones
 		LibroCalificaciones miLibroCalificaciones = new LibroCalificaciones();
 
+		//Muestra el valor inicial de nombreDelCurso. Para los String es null
+
+		System.out.printf("El nombre inicial del curso es: %s \n \n",
+							miLibroCalificaciones.obtenerNombreDelCurso());
+
 		//Pide y recibe el nombre del curso como entrada
 		System.out.println("Escriba el nombre del curso:");
-		String nombreDelCurso = entrada.nextLine(); //Lee una línea de texto
+		String elNombre = entrada.nextLine(); //Lee una línea de texto
+		miLibroCalificaciones.establecerNombreDelCurso(elNombre);//Estable el nombre del curso
 		System.out.println(); //Imprime una línea en blanco
 
 
 		// Llama al método mostrar mensaje de miLibroCalificaciones
-		//y pasa nombreDelCurso como argumento
-		miLibroCalificaciones.mostrarMensaje(nombreDelCurso);
+		
+		miLibroCalificaciones.mostrarMensaje();
 	} // Fin de main
 
 } //Fin de la clase PruebaLibroCalificaciones
