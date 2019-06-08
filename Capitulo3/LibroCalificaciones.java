@@ -7,7 +7,7 @@ public class LibroCalificaciones{
 	private String nombreDelCurso; 
 
 	//Método para establecer el nombre del curso
-	public void establecerNombreDelCurso(String nombreDelCurso){
+	public void establecerNombreDelCurso(String nombre){
 		nombreDelCurso = nombre; // Almacena el nombre del curso en la variable nombre
 	} // Fin del método establecerNombreDelCurso
 
@@ -24,6 +24,6 @@ public class LibroCalificaciones{
 		System.out.printf("Bienvenido al Libro de Calificaciones para \n %s! \n", nombreDelCurso);
 		obtenerNombreDelCurso();
 		//Esta línea manda a llamar al método obtenerNombreDelCurso
-		
+
 	} // Fin del método mostrarMensaje
 }// Fin de la clase LibroCalificaciones
