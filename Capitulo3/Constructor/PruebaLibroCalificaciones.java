@@ -9,10 +9,10 @@ public class PruebaLibroCalificaciones {
 		//Crea objeto LibroCalificaciones
 
 		LibroCalificaciones libroCalificaciones1 = new LibroCalificaciones(
-			"CS101 Introducción a la programación en Java");
+			"CS101 Introducción a la programación en Java", "John Deitel");
 
 		LibroCalificaciones libroCalificaciones2 = new LibroCalificaciones(
-			"CS101 Estructuras de datos en Java");
+			"CS101 Estructuras de datos en Java", "Luis Joyanes");
 
 		// Muestra el valor inicial de nombreDelCurso para cada LibroCalificaciones
 
@@ -21,6 +21,11 @@ public class PruebaLibroCalificaciones {
 
 		System.out.printf("El nombre del curso de libroCalificaciones2 es: %s \n",
 			libroCalificaciones2.obtenerNombreDelCurso() );
+
+		// Muestra el nombre del curso y profesores
+
+		libroCalificaciones1.mostrarMensaje();
+		libroCalificaciones2.mostrarMensaje();
 
 	} //Fin del main
 
