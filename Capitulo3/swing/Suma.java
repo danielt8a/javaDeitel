@@ -13,20 +13,15 @@ import javax.swing.JOptionPane;
  		String numero1 =
  			JOptionPane.showInputDialog("Introduzca el primer número: ");
 
- 		//Convierte el String a int
-
- 		parseInt(numero1);
-
+ 			
  		// Solicita al usuario un segundo número entero
 
  		String numero2 =
  			JOptionPane.showInputDialog("Introduce el segundo número: ");
 
- 		//Convierte el String a int
- 		parseInt(numero2);
-
+ 		
  		//Realiza la suma de los dos números
- 		int suma = numero1 + numero2;
+ 		int suma = Integer.parseInt(numero1) + Integer.parseInt(numero2);
 
  		// Creación del mensaje
 
