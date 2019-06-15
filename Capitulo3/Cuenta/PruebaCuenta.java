@@ -23,6 +23,7 @@ public class PruebaCuenta {
 		Scanner entrada = new Scanner(System.in);
 
 		double montoDeposito;
+		double montoCargar;
 
 		System.out.print("Escriba el monto a depositar para Cuenta1: ");
 		montoDeposito = entrada.nextDouble(); // obtiene entrada del usuario
@@ -31,6 +32,17 @@ public class PruebaCuenta {
 			montoDeposito);
 
 		cuenta1.abonar(montoDeposito); // Suma al saldo de cuenta1
+
+		// Utilizando el método cargar
+		System.out.print("Escriba el monto a cargar para cuenta 1: ");
+		montoCargar = entrada.nextDouble();
+
+		System.out.printf("\nRestando %.2f al saldo de la cuenta1\n\n",
+			montoCargar);
+
+		//Invocando el método cargar
+		cuenta1.cargar(montoCargar);
+
 
 		//Muestra los saldos
 		System.out.printf("Saldo de cuenta1: $ %.2f\n",
@@ -49,7 +61,7 @@ public class PruebaCuenta {
 
 		//Muestra los saldos
 
-		System.out.printf("Saldo de cuenta2: $ %.2f\n",
+		System.out.printf("Saldo de cuenta1: $ %.2f\n",
 			cuenta1.obtenerSaldo() );
 		System.out.printf("Saldo de cuenta2: $ %.2f\n",
 			cuenta2.obtenerSaldo() );

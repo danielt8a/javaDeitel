@@ -28,4 +28,16 @@ public class Cuenta {
 		return saldo; // Proporciona el valor de saldo al método que hizo la llamada
 	}// Fin del método obtenerSaldo
 
+	// Método que descuenta un monto al saldo
+	public void cargar(double monto){
+		//Validar que el monto a cargar no supere el saldo
+		if (monto < saldo){
+			saldo = saldo - monto; //Descuenta el monto
+		}
+
+		if (monto > saldo){
+			System.out.println("El monto a cargar excede el saldo de la cuenta.");
+		}
+	}
+
 } //fin de la clase Cuenta
