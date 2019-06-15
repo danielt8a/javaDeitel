@@ -8,8 +8,10 @@ public class Dialogo1 {
 	public static void main(String[] args){
 
 		//Muestra un cuadro de diálogo con un mensaje
-		
 
-	}
+		JOptionPane.showMessageDialog(null, "Bienvenido\na \nJava");
+
+
+	} //Fin de main
 
 }
